@@ -31,11 +31,11 @@ function WalletLoader({
         <h1 className="text-4xl font-bold">
           Welcome to
         </h1>
-        <h1 className="mt-4 text-6xl font-bold" style={{display: 'flex'}}>
+        <h1 className="mt-4 text-6xl font-bold" style={{display: 'flex', alignItems: 'center'}}>
           {/* <Emoji label="dog" symbol="🐶" /> */}
-          <span className='emoji mr-3'><img alt="logo.svg" src='/logo.svg' style={{width: '65px', height: '65px'}}></img></span>
-          <span>{' BBC Wallet Connection '}</span>
-          <span className='emoji ml-3'><img alt="logo.svg" src='/logo.svg' style={{width: '65px', height: '65px'}}></img></span>
+          <span className='emoji' style={{width: '70px', height: '70px', padding:'2.5px'}}><img alt="logo.svg" src='/logo.svg'></img></span>
+          <span>{' $BBC Wallet Connection '}</span>
+          <span className='emoji' style={{width: '70px', height: '70px', padding:'2.5px'}}><img alt="logo.svg" src='/logo.svg'></img></span>
           {/* <Emoji label="dog" symbol="🐶" /> */}
         </h1>
 
