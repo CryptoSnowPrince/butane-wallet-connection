@@ -31,10 +31,12 @@ function WalletLoader({
         <h1 className="text-4xl font-bold">
           Welcome to
         </h1>
-        <h1 className="mt-4 text-6xl font-bold">
-          <Emoji label="dog" symbol="🐶" />
-          <span>{' Compose Wallet Connection '}</span>
-          <Emoji label="dog" symbol="🐶" />
+        <h1 className="mt-4 text-6xl font-bold" style={{display: 'flex'}}>
+          {/* <Emoji label="dog" symbol="🐶" /> */}
+          <span className='emoji mr-3'><img alt="logo.svg" src='/logo.svg' style={{width: '65px', height: '65px'}}></img></span>
+          <span>{' BBC Wallet Connection '}</span>
+          <span className='emoji ml-3'><img alt="logo.svg" src='/logo.svg' style={{width: '65px', height: '65px'}}></img></span>
+          {/* <Emoji label="dog" symbol="🐶" /> */}
         </h1>
 
         <p className="mt-6 text-2xl">
@@ -52,9 +54,10 @@ function WalletLoader({
             className="p-6 mt-6 text-left border border-secondary hover:border-primary w-96 rounded-xl hover:text-primary focus:text-primary-focus"
             onClick={connectWallet}
           >
-            <h3 className="text-2xl font-bold">
+            <h3 className="text-2xl font-bold" style={{display: 'flex', alignItems:'center'}}>
               <span className="pr-4">Connect your wallet &rarr;</span>
-              <Emoji label="poodle" symbol="🐩" />
+              {/* <Emoji label="poodle" symbol="🐩" /> */}
+              <span className='emoji'><img alt="logo.svg" src='/logo.svg' style={{width: '30px', height: '30px'}}></img></span>
             </h3>
           </button>
         </div>
